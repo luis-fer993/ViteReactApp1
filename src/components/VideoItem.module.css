@@ -1,0 +1,10 @@
+.video{
+	padding: 1rem;
+	border: 1px solid grey;
+	border-radius:1rem;
+	margin: 1rem 0;
+	-webkit-border-radius:1rem;
+	-moz-border-radius:1rem;
+	-ms-border-radius:1rem;
+	-o-border-radius:1rem;
+}

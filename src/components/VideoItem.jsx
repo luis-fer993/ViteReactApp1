@@ -1,9 +1,10 @@
+import styles from './VideoItem.module.css';
 
 const VideoItem = ({title, duration, uploadDate, description}) => { // we can use destructuring for extract the properties 
     const seconds = duration % 60;
     const minutes = Math.floor(duration / 60); // modify the paramatter recived and process the info
     return (
-        <div>
+        <div className={styles.video}>
             <h3>{ title }</h3>
             <div> 
                 <span>{`${minutes} : ${seconds}`}</span> {/* we put the constants with data processed */}

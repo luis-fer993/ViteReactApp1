@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom'
-import './main.css'
+import './styles/main.css'
 import App from './App';
 
 // ---- sec 1
